@@ -97,6 +97,15 @@ WHERE nota_professor > 6.0
 ORDER BY nota_professor ASC;
 
 
+-- EXERC - 05
+-- TESTE VERSIONAMENTO
+SELECT id_professor_comentario AS ID_Professor,
+       comentario AS Comentario,
+       nota_professor AS Nota
+ FROM TB_COMENTARIO
+WHERE nota_professor > 8.0
+ORDER BY nota_professor ASC;
+
 
 
 
